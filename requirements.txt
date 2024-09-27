@@ -1,0 +1,13 @@
+# PyTorch
+# Edit the following line to match your CUDA version.
+# Visit https://pytorch.org/get-started/previous-versions/ for available versions.
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+# Installing newer versions of torch is tempting, but you may run into compatibility
+# issues and low level bugs that are not worth the performance boost.
+torch==2.1.2
+
+# Other dependencies
+transformers==4.45.1
+Pillow<10.0.0
+numpy<2.0.0
