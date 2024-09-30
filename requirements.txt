@@ -11,3 +11,4 @@ torch==2.1.2
 transformers==4.45.1
 Pillow<10.0.0
 numpy<2.0.0
+hf_transfer==0.1.8

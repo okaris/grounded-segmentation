@@ -8,7 +8,8 @@ The implementation is inspired by [Niels Rogge's Transformers-Tutorials](https:/
 
 | Input Image | Output Mask | Prompt |
 |-------------|-------------|--------|
-| ![Car Image](assets/car.png) | ![Car Mask](assets/mask.png) | "car" |
+| ![Car Image](assets/car.png) | ![Car Mask](assets/car_mask.png) | "car" |
+| ![Bike Image](assets/bike.png) | ![Bike Mask](assets/bike_mask.png) | "bike" |
 
 ## Table of Contents
 - [Introduction](#introduction)

@@ -1,3 +1,10 @@
+import os
+
+# The hf_transfer library is a power user tool, to go beyond ~500MB/s on very high bandwidth network,
+# where Python cannot cap out the available bandwidth.
+
+os.environ["HF_HUB_ENABLE_HF_TRANSFER"] = "1"
+
 import numpy as np
 import torch
 from PIL import Image
